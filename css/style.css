@@ -1,0 +1,537 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif; 
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+
+.title{
+	width: 100%;
+	padding: 0px 0px 40px;
+}
+.title p{
+	font-size: 16px;
+	color: black;
+}
+.title h1{
+	font-size: 32px;
+	font-weight: 600;
+	color: black;
+}
+
+
+
+.header{
+	width: 100%;
+	background: #ffffff;
+}
+.header .bg-light {
+    background-color: transparent!important;
+}
+.header .navbar-brand img{
+	width: 180px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #42200B;
+    text-transform: uppercase;
+    font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 30px 0px 0px 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: blue;
+}
+.header.navbar-light .navbar-nav .nav-link.active,.header  .navbar-light .navbar-nav .show>.nav-link {
+    color: #000;
+}
+
+
+
+.banner{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/Slider Image.png") center bottom no-repeat;
+	background-size: cover;
+}
+.banner .banner-text {
+	padding: 200px 0px;
+}
+
+.banner .banner-text h1{
+	font-size: 52px;
+	margin-bottom: 20px;
+	color: white;
+}
+.banner .banner-text p{
+	font-size: 15px;
+	width: 100%
+	color:white;
+	margin-bottom:50px;
+}
+.banner .banner-text .inner-button .btn-light{
+	padding: 10px 30px;
+	text-transform: uppercase;
+}
+.banner .banner-text .inner-button .btn-light:hover{
+	background: blue;
+	color: white;
+}
+
+
+
+.about{
+	width: 100%;
+	padding: 15px 0px;
+}
+.about .title{
+	text-align: center;
+
+}
+
+.about .title h1{
+	margin: 10px 0px 20px 0px;
+}
+.inner-about{
+	text-align: center;
+	margin: 50px 0px 50px 0px;
+	border: 1px solid silver;
+	padding: 0px 0px 20px;
+}
+
+.inner-about img{
+	margin-bottom: 20px;
+}
+.inner-about h1{
+	text-transform: uppercase;
+	margin-top: 15px;
+
+}
+.inner-about p{
+	margin-top: 10px;
+}
+.inner-about a{
+	color: silver;
+	padding: 30px 0px;
+}
+.inner-about:hover{
+	border: 1px solid black;
+}
+.inner-about a:hover{
+	color: black
+}
+
+
+
+.about-us{
+	width: 100%;
+	padding: 15px 0px;
+	text-transform: uppercase;
+}
+.about-us .left img{
+	width: 350px;
+	height: 350px;
+}
+.about-us .right{
+	padding: 0px 10px;
+}
+.about-us .right h1{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.about-us .right p{
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.about-us .right .us-button .btn-light{
+	padding: 10px 30px;
+
+	text-transform: uppercase;	
+	border: 2px solid black;
+}
+.about-us .right .us-button .btn-light:hover{
+	border: 2px solid blue;
+	background: blue;
+	color: white;	
+}
+
+
+.wrapper{
+	width: 100%;
+	padding: 80px 0px;
+	}
+.filter{
+	width: 70%;
+	margin: 0px auto 40px;
+	text-align: center;
+}
+
+.filter .btn-info{
+	padding: 12px 12px;
+	background: #08c;
+	border: 1px solid #08c;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 2px;
+	margin: 0px 5px;
+	text-transform: capitalize;
+}
+.filter .btn-info:hover{
+	background: transparent;
+	border: 1px solid #08c;
+	color:#08c;
+	box-shadow: 1px 3px 8px #ccc;
+	}
+	.padd{
+		padding: 2px;
+	}
+.portfolio .item{
+width: 100%;
+position: relative;
+}
+
+.item-hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 136, 204, .8);
+	text-align: center;
+	transform: scale(0);
+	transition: 0.3s;
+}
+.portfolio .item:hover .item-hover{
+	transform: scale(1);
+}
+.item-hover .fa{
+	font-size: 60px;
+	color: white;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+		}
+
+
+
+.best{
+	width: 100%;
+	padding: 80px 0px;
+}
+.best .title{
+	text-align: center;
+}
+.best .inner-best {
+	border-bottom:  2px solid silver;
+	margin-bottom: 40px;
+
+}
+.best .inner-best h5{
+	color: silver;
+}
+.best .inner-best p{
+	margin-top: 20px; 
+}
+.best .inner-best h5:hover{
+	color: black;
+}
+.best .inner-best:hover{
+	border-bottom: 2px solid black;
+}
+
+.review{
+	background: url("../images/Background.png.") center bottom no-repeat;
+	background-size: cover; 
+	padding: 80px 0px;
+}
+.review .title{
+	text-align: center;
+}
+
+
+.review .card{
+	border: none;
+	margin: 10px;
+}
+.review .card .card-img-top{
+	width: 258px;
+	height: 258px;
+}
+
+
+
+.price{
+	padding: 80px 0px;
+	width: 100%;
+}
+.price .title{
+	text-align: center;
+
+}
+.price-inner{
+	text-align: left;
+	border: 1px solid #eee;
+}
+.price-inner .price-head{
+	width: 100%;
+	padding: 5px 0px;
+}
+.price-inner .price-head h5{
+	font-size: 15px;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+}
+.price-inner .main-price{
+	width: 100%;
+	padding: 25px 0px;
+}
+.price-inner .main-price h5{
+	font-size: 15px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+.price-inner .main-price h4 sub{
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.price-inner .price-cintaint{
+	width: 100%;
+	padding: 35px 40px;
+}
+.price-inner .price-containt ul{
+		list-style: none;
+		padding-bottom: 10px 10px;
+
+}
+.price-inner .price-containt ul li{
+	margin-bottom: 15px;
+}
+
+.price-inner .price-containt .price-button .btn-light{
+	padding: 8px 40px;
+	text-transform: uppercase;
+	text-align: center;
+	border: 1px solid silver;
+	margin: 50px 0px 50px 50px;
+}
+.price-inner .price-containt .price-button .btn-light:hover{
+	background: blue;
+	color: white;
+}
+
+.book{
+	width: 100%;
+	background: #F8F8F8;
+	padding: 30px 0px;
+}
+.book .right{
+	text-align: left;
+}
+.book .right p{
+	font-size: 25px;
+}
+.book .left{
+	text-align: right;
+	margin-top: 10px;
+}
+.book .left .btn-light{
+	padding: 8px 10px;
+	text-transform: uppercase;
+	border: 1px solid silver;
+}
+.testimonial{
+	width: 80%;
+	padding: 50px 20px;
+	border: 1px solid black;
+	text-transform: uppercase;
+	margin: 150px 0px 150px 150px;
+}
+.testimonial .left img{
+	width: 250px;
+	height: 250px;
+}
+.testimonial .right{
+	padding: 0px 0px;
+}
+.testimonial .right h1{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.testimonial .right p{
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.contact-us{
+	width: 80%;
+	padding: 50px 20px;
+	border: 1px solid black;
+	text-transform: uppercase;
+	margin: 150px 0px 150px 150px;
+}
+.contact-us .title{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.contact-us .main-form .form-control{
+	border: none;
+	border-bottom: 1px solid silver;
+}
+.contact-us .main-form .form-group .btn-light{
+	padding: 8px 40px;
+	text-transform: uppercase;
+	text-align: center;
+	border: 1px solid silver;
+	margin: 30px 0px 30px 240px;
+}
+.contact-us .main-form .form-group .btn-light:hover{
+	background: blue;
+	color: white;
+}
+.footer{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/Background1.png.") center bottom no-repeat;
+	background-size: cover;
+	height: 500px;
+	}
+.footer .title{
+	text-align: center;
+}
+.footer .title p{
+	color: white;
+	margin-bottom: 20px;
+}
+
+.social-link{
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+}
+.social-link li{
+	list-style: none;
+	display: inline-block;
+}
+.social-link li a{
+	font-size: 14px;
+	margin: 0px 15px;
+	color: white;
+	padding: 5px;
+	border: 1px solid white; 
+}
+.social-link li a:hover{
+	color:#008ed6; 
+}
+.bb{
+	border-top: 10px;
+}
+.leftf{
+	color: white;
+	text-transform: uppercase;
+	margin-top: 160px;
+
+}
+.rightf {
+	width: 100%
+}
+.rightf .list{
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+}
+.rightf .list li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	font-size: 15px;
+	margin: 140px 8px 0px;
+	color: white;
+	padding: 5px; 
+}
+
+.rightf .list li:hover{
+	color:#008ed6; 
+}
+
+
+
+
+
+
+
+@media(min-width:320px) and (max-width: 480px){
+
+
+.filter .btn-info {
+    padding: 12px 12px;
+    background: #08c;
+    border: 1px solid #08c;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 2px;
+    margin: 14px 27px;
+    text-transform: capitalize;
+}
+
+
+.price-inner{
+	text-align: left;
+	border: 1px solid #eee;
+	margin: 0px 0px 30px 0px;
+}
+.testimonial {
+    width: 100%;
+    padding: 50px 20px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    margin: 50px 0px 50px 0px;
+    text-align: left;
+}
+
+.contact-us .main-form .form-group .btn-light {
+    padding: 8px 40px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid silver;
+    margin: 27px 0px 0px 0px;
+    text-align: left;
+}
+.contact-us{
+	width: 100%;
+	padding: 50px 20px;
+	border: 1px solid black;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 20px 0px 50px 0px;
+}
+
+}
+@media(min-width:481px) and (max-width: 767px){
+
+
+
+
+
+
+
+}
+
+
+@media(min-width:768px) and (max-width: 1024px){
+
+}
